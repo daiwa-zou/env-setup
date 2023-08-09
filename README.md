@@ -1,1 +1,4 @@
-# env-setup
+# Development Enviroment Setup
+Tools:
+Nvim
+Tmux
