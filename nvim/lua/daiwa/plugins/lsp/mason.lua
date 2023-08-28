@@ -26,11 +26,11 @@ mason_lspconfig.setup({
     "java_language_server",
     "lua_ls",
     "jsonls",
-    "golangci_lint_ls",
     "yamlls",
     "terraformls",
     "ruby_ls",
     "dockerls",
+    "clangd",
   },
 
   -- auto-install configured servers (with lspconfig)
@@ -46,6 +46,7 @@ mason_null_ls.setup({
     "yamllint", -- yaml linter
     "pylint", -- python linter
     "sonarlint-language-server",
+    "clang-fornat",
   },
   -- auto-install configured formatters & linters (with null-ls)
   automatic_installation = true,
